@@ -30,6 +30,8 @@ MIRYOKU_LAYER_LIST
   };
 };
 
+#include "custom_combos.dtsi"
+
 #include "miryoku_shift_functions.dtsi"
 
 #include "miryoku_double_tap_guard.dtsi"
@@ -58,6 +60,3 @@ MIRYOKU_LAYER_LIST
   #include "miryoku_behaviors.dtsi"
 #endif
 
-#if defined (MIRYOKU_KLUDGE_CUSTOMCOMBOS)
-  #include "custom_combos.dtsi"
-#endif
