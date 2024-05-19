@@ -58,6 +58,6 @@ MIRYOKU_LAYER_LIST
   #include "miryoku_behaviors.dtsi"
 #endif
 
-if defined (MIRYOKU_KLUDGE_CUSTOMCOMBOS)
+#if defined (MIRYOKU_KLUDGE_CUSTOMCOMBOS)
   #include "custom_combos.dtsi"
 #endif
